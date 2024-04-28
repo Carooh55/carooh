@@ -40,7 +40,7 @@ function formatDate(date) {
 }
 
 function searchCity(city) {
-  let apiKey = " ";
+  let apiKey = "bocebdf4baft88cb9a6ffe3dc74094f7";
   let apiUrl =
     "https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric";
   axios.get(apiUrl).then(refreshWeather);
